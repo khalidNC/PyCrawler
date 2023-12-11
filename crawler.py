@@ -36,4 +36,4 @@ def crawl_stackoverflow(num_page):
     scrape_stackoverflow(page_url)
 
 # Execute the function that goes to each page within the range and scrape
-crawl_stackoverflow(2)
+crawl_stackoverflow(4)

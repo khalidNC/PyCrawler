@@ -91,7 +91,7 @@ def export_data(data):
   df.to_csv("stackover.csv")
 
 '''
-  To make the file as script and to run the script from the command line, we created a if block.
+  To make this module as script also to import as module, we created a if block.
   This conditional(if __name__ == "__main__") block checks if the script is being run as the main program. 
   If so, it calls the crawl_stackoverflow() function, and then export_data() function. This structure 
   is commonly used to make the script reusable as a module and executable as a standalone script.
